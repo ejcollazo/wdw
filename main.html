@@ -1,0 +1,114 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <nav class="teal">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo tooltipped" data-position="right" data-delay="50" data-tooltip="I am tooltip">Logo</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="sass.html">Sass</a></li>
+          <li><a href="components.html">Components</a></li>
+          <li><a href="javascript.html">JavaScript</a></li>
+        </ul>
+        <ul id="slide-out" class="side-nav">
+          <li><a href="#!">First Sidebar Link</a></li>
+          <li><a href="#!">Second Sidebar Link</a></li>
+        </ul>
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l4 card-panel teal white-text">
+           <i class="mdi-action-accessibility"></i>
+          Test
+        </div>
+        <div class="col s12 l4 card-panel teal">
+           <i class="mdi-content-add"></i>
+          Hi
+        </div>
+        <div class="col s12 l4 card-panel teal">
+           <i class="mdi-content-add"></i>
+          Hello
+        </div>
+      </div>
+      <!-- Image Gallery -->
+
+        <img class="materialboxed" width="400" src="https://download.unsplash.com/photo-1423483641154-5411ec9c0ddf">
+
+          <ul class="collapsible" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header"><i class="mdi-image-filter-drama"></i>First</div>
+      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="mdi-maps-place"></i>Second</div>
+      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="mdi-social-whatshot"></i>Third</div>
+      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+    </li>
+  </ul>
+        
+
+        <h2>Contact me!</h2>
+        <div class="row">
+
+
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+    </form>
+
+  </div>
+  <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+    <a class="btn-floating btn-large red">
+      <i class="large mdi-editor-mode-edit"></i>
+    </a>
+    <ul>
+      <li><a class="btn-floating red"><i class="large mdi-editor-insert-chart"></i></a></li>
+      <li><a class="btn-floating yellow darken-1"><i class="large mdi-editor-format-quote"></i></a></li>
+      <li><a class="btn-floating green"><i class="large mdi-editor-publish"></i></a></li>
+      <li><a class="btn-floating blue"><i class="large mdi-editor-attach-file"></i></a></li>
+    </ul>
+  </div>
+          
+ 
+    </div>
+
+
+
+
+
+      
+    <a href="#!" class="waves-effect waves-light btn">Send</a>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+    <script>
+    $(document).ready(function(){
+       $(".button-collapse").sideNav();
+    });
+    </script>
+
+
+  </body>
+  
+
+</html>
