@@ -2,7 +2,6 @@
     width: 400px;
 }
 
-/*body {
-    background-image: url("backgroundImage.jpg");
-    background-repeat: no-repeat;
-}*/
+body {
+    background-image: url("/images/backgroundImage.jpg");
+}
