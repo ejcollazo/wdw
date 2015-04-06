@@ -1,7 +1,24 @@
-.blueberries {
-    width: 400px;
+
+
+html {
+    background-color: #0d47a1 ;
+    background-size:cover
+
 }
 
-body {
-    background-image: url("/images/backgroundImage.jpg");
+
+#headBox {
+    margin: 10%;
+
+}
+
+
+#mainName {
+    padding: 5%;
+
+
+}
+
+#links {
+    margin: 5px;
 }
