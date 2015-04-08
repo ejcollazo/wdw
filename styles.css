@@ -1,16 +1,100 @@
 
 
 html {
-  background: url(images/backgroundImage.jpg) no-repeat center center fixed; 
+
+    background-color: white;
+/*  background: url(images/backgroundImage.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+*/
+}
+
+
+.under-construction {
+  height: 180px;
+  line-height: 24px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  text-decoration: underline;
+  top: 0px;
+  vertical-align: baseline;
+  width: 180px;
+}
+
+
+#mainBar {
+    background-color: white;
+}
+
+.spacing{
+    height: 300px;
+}
+
+#text {
+    color: white;
+    font-weight: 400;
+}
+
+.sectionPictures {
+    height: 250;
+    width: 350;
+}
+
+
+#bigFonts {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: white;
+
+}
+
+#welcomeParagraph {
+    background-color: white;
+    margin-left: 50px;
+}
+#btn {
+    background-color: #1976d2;
+}
+
+.profilePicture {
+   border: 2px solid white;
+}
+
+#mainTop {
+
+    background-color: #1976d2;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-top: 1px;
+
+}
+
+.profilePicture {
+    width: 300px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profileDiv {
+    background-color: #1976d2;
 }
 
 
 #headBox {
     margin: 10%;
+    background-color: blue;
 
 }
 
@@ -21,6 +105,9 @@ html {
 
 }
 
-#links {
-    margin: 5px;
+.div {
+    font-size: 1000px
 }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
